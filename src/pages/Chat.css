@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+.heading{
+    font-family: "Poppins";
+}
+
+.grid-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:15px;
+    margin-top: 40px;
+}
+
+.grid-child{
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.grid-child:hover{
+    background-color: whitesmoke;
+    color: #212121;
+}
+.grid-child h3{
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.grid-child p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.text-area{
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Poppins";
+
+}
+
+.action-btn{
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    font-family: "Poppins";
+}
+
+.result-text {
+    font-family: Poppins;
+    font-size: 25px;
+    line-height: 2.5rem;
+  }
+
+.toGenerator{
+    font-family: "Poppins";
+    margin-top: 60px;
+    border-radius: 15px;
+    background-color: inherit;
+    cursor: pointer;
+    height:40px;
+    width: 300px;
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+}
+
+.toGenerator:focus{
+    outline: none;
+}
+
+.toGenerator:hover{
+    background-color: whitesmoke;
+    color: #212121;
+}
+
+.goback{
+    font-family: "Poppins";
+    cursor: pointer;
+    width:100px;
+    height:50px;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: absolute;
+    top:10px;
+}
+
+.goback:hover{
+    background-color: whitesmoke;
+    color: #212121;
+}
